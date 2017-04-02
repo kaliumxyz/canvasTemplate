@@ -1,0 +1,8 @@
+html, body, canvas {
+	/* These CSS rules assure that the canvas is always fullscreen */
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
