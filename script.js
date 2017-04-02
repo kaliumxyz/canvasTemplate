@@ -5,5 +5,6 @@ const canvas = select("canvas")
 const context = canvas.getContext("2d")
 
 // print "test" to console if space is pressed.
-window.onkeydown = e => e.keyCode===32 && console.log("test")
-
+window.onkeydown = function(event){
+	if(e.keyCode===32) {console.log("test")}
+}
